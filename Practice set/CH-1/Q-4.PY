@@ -16,3 +16,4 @@ except FileNotFoundError:
     print(f"The directory '{path}' does not exist.")
 except PermissionError:
     print(f"No permission to access '{path}'.")
+    
