@@ -1,4 +1,4 @@
-#
+# Write a program to create an dicitionary of hindi words with the values of English transaltion .
 
 words = {
     "water" : "pani",
