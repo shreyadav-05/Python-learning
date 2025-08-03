@@ -1,5 +1,21 @@
 #Set--> A set in Python is a built-in data type that represents an unordered collection of unique elements
 
+#creating sets
+"""
+my_set = {"apple", "banana", "cherry"}
+
+fruits = {"apple", "banana", "cherry"}
+print(fruits)
+
+fruits.add("orange")
+
+fruits.remove("banana")
+
+fruits = {"apple", "apple", "banana"}
+print(fruits)  # Output: {'apple', 'banana'}
+"""
+
+
 #Property of Set
 """
 1. It is unordered,
@@ -39,7 +55,7 @@ print(set)           # [ {0.34, 1, 3, 4, 5, 6, 23} ]
 # union
 s9={1,3,4,78,56}
 s10={2,4,5,1,56}
-
+ 
 print(s9.union(s10))
 print(s10.intersection(s9))
           
