@@ -3,3 +3,4 @@ n = 0
 for i in range (1, 101):
     print(n)
     n = n + i
+    
