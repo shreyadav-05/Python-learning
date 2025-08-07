@@ -1,5 +1,5 @@
 #  # Write a program to find the greatest of four numbers entred by the user!
-"""Q-1"""
+
 A=int(input("Enter number:"))
 B=int(input("Enter number:"))
 C=int(input("Enter number:"))
