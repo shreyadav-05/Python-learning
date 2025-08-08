@@ -1,4 +1,4 @@
-#c
+#count and print how many numbers between 1 to 50 are divisible by 7.
 
 count = 0
 for i in range (1 , 51):
