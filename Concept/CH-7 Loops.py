@@ -1,4 +1,4 @@
-# #                                       LOOPs            
+#                                       LOOPs            
 # Sometime we want to repeat a set of statement in our program. for instance: print 1 to 1000
 
 # LOOPS make it easy for programmer to tell the computer which set od instructions to repeat and how !!
@@ -51,16 +51,6 @@ False
 
 #2. FOR LOOP -->> A loop is used to iterate through sequence like list, tuple, or string[iterables]
 
-#TUPLE
-t = (6,433,2,1,5,34)
-for i in t:
-   print (i)
-
-#STRING
-s = "Shreya"
-for i in s:
-   print(i)
-#ITERATE
 l=[1,7,5]
 for a in l:      # Here, 'a' is a temporary loop variable which stores each element and then displays it."
   print(a)      # print the item --> 1,7 and 5
@@ -74,18 +64,16 @@ c
 a
 t 
 '''
-# LOOP through string only printing the first 6 letters of my Name
-string="SHREYA YADAV"
-for i in string[:6]:    # it is done by the string slicing method 
+# LOOP through string only printing the first 4 letters of my Name
+string="ABHI YADAV"
+for i in string[:4]:    # it is done by the string slicing method 
    print(i)
 '''
 OUTPUT:
-S
-H
-R
-E
-Y
 A
+B
+H
+I
 '''
 # Loop through a dictionary
 d = {"a": 1, "b": 2}
@@ -117,45 +105,15 @@ OUTPUT:
 15
 '''
 
-# LOOP through string only printing the first 6 letters of my Name
-string="SHREYA YADAV"
-for i in range(6):
+# LOOP through string only printing the first 4 letters of my Name
+string="ABHI YADAV"
+for i in range(4):
    print(string[i])
 
 '''
 OUTPUT:
-S
-H
-R
-E
-Y
 A
+B
+H
+I
 '''
-
-#LOOP ITRERATE-
-l = (1,4,6,7,456,7,89)
-for i in l:
-   print (i)
-
-#for with-else
-l = (1 ,7, 8)
-for item in l:
-   print(item)
-else:
-   print("done")
-
-
-#break
-for i in range (100):
-   if (i==34):
-      break #exit the loop right now
-   print(i)
-
-#continue
-for i in range (100):
-   if (i==34):
-      continue #skip this iteration
-   print(i)
-   
-
-   
