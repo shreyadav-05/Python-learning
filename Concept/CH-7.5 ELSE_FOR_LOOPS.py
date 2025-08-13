@@ -10,8 +10,8 @@ else:
 print("\n")
 
 #LOOPS thorugh  string 
-string="ABHI YADAV"
-for i in string[:4]:    # it is done by the string slicing method 
+string="SHREYA YADAV"
+for i in string[:6]:    # it is done by the string slicing method 
    print(i)
 
 else:
