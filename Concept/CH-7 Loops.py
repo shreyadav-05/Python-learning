@@ -50,10 +50,34 @@ False
 '''  
 
 #2. FOR LOOP -->> A loop is used to iterate through sequence like list, tuple, or string[iterables]
+#when you know how many times repeat
+#EX-
+for i in range(8):
+   print("hello")
+   # This will print "hello" 5 times 
+
 
 l=[1,7,5]
 for a in l:      # Here, 'a' is a temporary loop variable which stores each element and then displays it."
   print(a)      # print the item --> 1,7 and 5
+
+# loop-iterate-
+
+l = [1,2,4,6,56,467,4,786]
+for i in l:
+   print(i)
+
+# tuple-
+t = [6,576,65,6,687]
+for i in t:
+   print(i)
+
+# string
+S = "Shreya"
+for i in S:
+   print(i)
+
+
 
 # Loop through a string
 for char in "cat":
@@ -65,15 +89,17 @@ a
 t 
 '''
 # LOOP through string only printing the first 4 letters of my Name
-string="ABHI YADAV"
+string="SHREYA YADAV"
 for i in string[:4]:    # it is done by the string slicing method 
    print(i)
 '''
 OUTPUT:
-A
-B
+S
 H
-I
+R
+E
+Y
+A
 '''
 # Loop through a dictionary
 d = {"a": 1, "b": 2}
@@ -106,14 +132,39 @@ OUTPUT:
 '''
 
 # LOOP through string only printing the first 4 letters of my Name
-string="ABHI YADAV"
+string="SHREYA YADAV"
 for i in range(4):
    print(string[i])
 
 '''
 OUTPUT:
-A
-B
+S
 H
-I
+R
+E
+Y
+A
 '''
+
+# for-with-else.py-
+
+l = [1,7,8]
+for item in l:
+   print(item)
+else:
+   print("done") 
+
+   # break
+   for i in range (100):
+      if (i == 34):
+         break #exit the loop right now
+   print(i)
+    
+
+# continue
+for i in range(100):
+   if (i == 34):
+      continue # skip this iteration
+   print(i)
+      
+   
