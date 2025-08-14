@@ -6,7 +6,7 @@ def check_even_odd(num):
  else:
     print("odd")
 
-  #  check_even_odd(4)
-  #  check_even_odd(7)
+check_even_odd(4)
+check_even_odd(7)
 
 
