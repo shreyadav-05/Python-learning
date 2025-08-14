@@ -1,7 +1,7 @@
 # print name 3 times
  
-def repeat_(name):
+def print_name():
     for _ in range(3):
-        print(name)
+        print("Shreya")
 
-        repeat_name("shreya")
+print_name()
