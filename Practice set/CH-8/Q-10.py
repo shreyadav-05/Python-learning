@@ -13,4 +13,3 @@ def sum_of_digits(n):
 
 # Example usage:
 number = 467587698
-print(f"Sum of digits of {number} is {sum_of_digits(number)}")
