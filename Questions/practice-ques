@@ -37,7 +37,7 @@ while num <= n*n:
 
 for row in matrix:
     print(row)
-
+ aaa
 
 
 
