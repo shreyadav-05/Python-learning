@@ -1,9 +1,8 @@
-#Replace "Donkey" with "######"
-# Problem 4
-with open("file.txt", "r") as f:
+#Count number of words in a file
+# Program 3
+with open("myfile.txt", "r") as f:
     content = f.read()
 
-content = content.replace("Donkey", "######")
+words = content.split()
+print("Number of words:", len(words))
 
-with open("file.txt", "w") as f:
-    f.write(content)
