@@ -14,7 +14,7 @@ else:
 #Write a program which finds out whether a given name is present or not 
 
 n=input("Enter the name: ")
-st="Abhi "
+st="Shreya"
 
 if(st==n):
   print("yes, given name is present")
