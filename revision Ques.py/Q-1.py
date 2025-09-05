@@ -27,4 +27,74 @@ if num > 1:
             break
         else:
             print(num," is a prime number")
-            
+
+
+# Right-angled triangle pattern
+""""*
+**
+***
+****
+*****
+"""
+
+
+
+
+
+
+
+# Reverse a string 
+# Take a string as input and print it in reverse using a for loop.
+# ulta string prine karwana hai example = Shreya 
+#             output = ayerhs
+
+
+
+
+
+
+
+
+
+# Fibonacci sequence
+# Print the first n terms of the Fibonacci sequence using a for loop.
+# 👉 (e.g., 0, 1, 1, 2, 3, 5, 8...)
+
+
+
+
+
+
+
+
+
+
+# Armstrong number check
+# Check if a number is an Armstrong number (e.g., 153 = 1³ + 5³ + 3³).
+# Use a loop to calculate powers.
+
+
+
+
+
+
+
+
+
+
+# Number pyramid pattern
+# Print this pattern for n = 5:
+"""
+1
+1 2
+1 2 3
+1 2 3 4
+1 2 3 4 5
+
+"""
+
+rows = 5
+for i in range(1, rows+1):
+    for j in range(1,i+1):
+        print(j , end="")
+    print()
