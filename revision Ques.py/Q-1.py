@@ -53,6 +53,9 @@ for i in range (1,rows+1):
 # ulta string prine karwana hai example = Shreya 
 #             output = ayerhs
 
+text = input("enter the string:")
+reversed_text = text[:: -1]
+print("reversed string:",reversed_text)
 
 
 

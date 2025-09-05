@@ -1,3 +1,3 @@
-rows = 5
-for i in range (1,rows+1):
-    print("*" * i)
+text = input("enter the string:")
+reversed_text = text[:: -1]
+print("reversed string:",reversed_text)
