@@ -20,3 +20,5 @@ a.square()
 a.sqaureroot()
 a.cube()
 
+"""OOPs - Object Oriented Programming System
+Class → Blueprint of an object"""
