@@ -20,7 +20,3 @@ a.square()
 a.sqaureroot()
 a.cube()
 
-
-
-
-
