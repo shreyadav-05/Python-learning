@@ -19,3 +19,6 @@ a.greet()
 a.square()
 a.sqaureroot()
 a.cube()
+
+
+
