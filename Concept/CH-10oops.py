@@ -99,3 +99,4 @@ Object → acc1 is Rahul’s account.
 Encapsulation → Balance + methods are grouped inside one class 
 Real-life use → Works like a real bank account.
 """
+ 
