@@ -5,7 +5,15 @@ class Calculator:
 
     def square(self):
         print(f"The square is {self.n * self.n}")
+    def cube(self):
+        print(f"The cube is {self.n * self.n}")
+    def squareroot(self):
+        print(f"The squareroot is {self.n * self.n}")
+
+
+    
 
 a = Calculator(7)
 a.square()
-
+a.cube()
+a.squareroot()
