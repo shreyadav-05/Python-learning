@@ -5,6 +5,8 @@ class Sample:
 obj = Sample()
 print("Initially:", obj.a)   # 10
 
+
+
 obj.a = 0    # creates instance attribute, does NOT change class attribute
 print("After changing obj.a:", obj.a)
 print("Class attribute still:", Sample.a)
