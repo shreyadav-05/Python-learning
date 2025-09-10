@@ -7,6 +7,7 @@ print(o.a)   # prints the class attribute because no instance attribute set ther
 o.a = 0    # instance attribute set
 print(o.a)  # prints the instance attribute
 
+
 print(demo.a) # no class attribute doesn't change 
 # prints the class attribute because no instance attribute set there
 
