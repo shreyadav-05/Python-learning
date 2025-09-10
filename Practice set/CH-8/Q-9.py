@@ -8,6 +8,7 @@ def reverse_string(s):
     # Recursive case: reverse the rest of the string and add the first character at the end
     return reverse_string(s[1:]) + s[0]
 
+
 # Example usage:
 text = "Shreya"
 print(reverse_string(text))  # Output: "olleh"
