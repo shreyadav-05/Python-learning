@@ -33,4 +33,15 @@ elif(k<=70 and k>=65):
 elif(k==33):
   print("POOR!!")
 
+
+
+
+
+
+
+
+
+
+
+
   
