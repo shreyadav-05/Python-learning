@@ -17,8 +17,7 @@ elif(C>A and C>B and C>D):
 
 elif(D>B and D>C and D>A):
   print("D is the greatesT number:",D)
-
-
+  
 
 
 
