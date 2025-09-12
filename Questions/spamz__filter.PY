@@ -1,7 +1,7 @@
 # #A spam comment is defined as a text containing following keywords:
 # "Make a lot of money", "buy now", "subscribe this", "click this". write a program to detect these spam messages 
 
-"""Q-3"""
+
 # spam filter system
 s1= "Make a lot of money"
 s2= "make a lot of money"
