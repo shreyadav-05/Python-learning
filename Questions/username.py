@@ -1,6 +1,6 @@
 #write a program to find whether a given username contains less than 10 characters or not
 
-"""Q-4 """
+
 
 Username=input("Create your username:")
 
@@ -21,3 +21,8 @@ if(st==n):
 
 else:
   print("no, given name is not present ")
+
+
+
+
+  
