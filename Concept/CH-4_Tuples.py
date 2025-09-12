@@ -29,7 +29,7 @@ h1,h2=tuple0  # it wil l assign/unpack into the individual Variables.
 print(h1,h2) #OUTPUT: 1 2
 
 """
-Abhi ,hARRY = a     
-print(Abhi, hARRY,) #errror because you need to give the variabled to each and every element present in the Tuple
+shreya ,hARRY = a     
+print(shreya, hARRY,) #errror because you need to give the variabled to each and every element present in the Tuple
 """
 
