@@ -11,6 +11,8 @@ elif marks >= 50:
 else:
     print("Fail")
 
+
+
 """
 if marks >= 90:
     print("Grade A")
@@ -21,6 +23,10 @@ elif marks >= 50:
 else:
     print("Fail")
     """
+
+
+
+
 
 
 
