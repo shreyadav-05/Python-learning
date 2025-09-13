@@ -68,6 +68,8 @@ print("reversed string:",reversed_text)
 # Print the first n terms of the Fibonacci sequence using a for loop.
 # 👉 (e.g., 0, 1, 1, 2, 3, 5, 8...)
 
+
+
 n = int(input("enter the number:"))
 a , b = 0 , 1
 print("fibonacci series:")

@@ -1,3 +1,7 @@
+
+
+
+
 n = int(input("enter the number:"))
 a , b = 0 , 1
 print("fibonacci series:")
