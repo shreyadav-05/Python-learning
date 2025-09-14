@@ -2,3 +2,6 @@
 
 A = input("enter:")
 print("the type of variable = " , type (A))
+
+
+
