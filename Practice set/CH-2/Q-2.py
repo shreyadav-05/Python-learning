@@ -5,3 +5,6 @@ z = int(input("divided by z:"))
 
 remainder = number/z
 print("remainder is after divided by z:" ,remainder)
+
+
+
