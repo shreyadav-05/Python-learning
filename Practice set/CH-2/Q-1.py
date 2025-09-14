@@ -5,3 +5,6 @@ B = int(input("enter the second number"))
 
 C = A+B
 print("the sum of A and B:" ,C)
+
+
+
