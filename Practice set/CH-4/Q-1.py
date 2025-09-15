@@ -17,3 +17,7 @@ f7 = input("enter fruits name")
 fruits.append(f7)
 print(fruits)
 
+
+
+
+
