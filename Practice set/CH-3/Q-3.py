@@ -2,3 +2,6 @@
 
 name  = "Shreya is a good girl"
 print(name.find("  "))
+
+
+
