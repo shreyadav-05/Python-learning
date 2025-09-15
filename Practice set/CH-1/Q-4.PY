@@ -3,6 +3,7 @@
 import os
 
 # Select the directory whose content you want to list 
+
 path = "/"
 
 try:
@@ -17,3 +18,8 @@ except FileNotFoundError:
 except PermissionError:
     print(f"No permission to access '{path}'.")
     
+
+
+
+
+
