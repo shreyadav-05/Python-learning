@@ -2,3 +2,6 @@
 
 name = input("enter name:")
 print("good afternoon " , name )
+
+
+
