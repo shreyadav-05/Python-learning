@@ -1,5 +1,6 @@
 #Write a program to create an dicitionary of hindi words with the values of English transaltion 
-"""Q-1
+
+
 DIC ={ 
   "pustak" : "book",  
   "paani" : "water", 
@@ -24,4 +25,8 @@ DIC ={
 
 wORD=input("Enter the word:")
 print(DIC[wORD])
-"""
+
+
+
+
+
