@@ -22,3 +22,6 @@ if((s1 and s2 in message) or (s4 and s3 in message ) or (s5 and s6 in message) o
 
 else:
   print("it is not valid comment ")
+
+
+
