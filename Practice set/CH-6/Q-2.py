@@ -1,6 +1,7 @@
 # Write a program to find out whether a student has passed or failed if it requires a total 40% and atleast 33% in each subject to pass. Assume 3 subject and takes marks as an input from the user.
 
 # Marks of 3 subject
+
 m=int(input(" 1st subject:"))
 a=int(input(" 2nd subject:"))
 r=int(input(" 3rd subject:"))
@@ -32,6 +33,8 @@ elif(k<=70 and k>=65):
 
 elif(k==33):
   print("POOR!!")
+
+  
 
 
 
