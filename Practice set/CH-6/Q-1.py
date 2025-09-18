@@ -1,5 +1,8 @@
 #  # Write a program to find the greatest of four numbers entred by the user!
 
+
+
+
 A=int(input("Enter number:"))
 B=int(input("Enter number:"))
 C=int(input("Enter number:"))
@@ -17,6 +20,10 @@ elif(C>A and C>B and C>D):
 
 elif(D>B and D>C and D>A):
   print("D is the greatesT number:",D)
+
+
+
+  
   
 
 
