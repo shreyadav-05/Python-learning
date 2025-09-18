@@ -1,6 +1,7 @@
 #write a program to find whether a given username contains less than 10 characters or not
 
 
+
 Username=input("Create your username:")
 
 if(len(Username)<10):
@@ -8,6 +9,10 @@ if(len(Username)<10):
 
 else:
   print("valid username!!")
+
+
+
+
 
 
 #Write a program which finds out whether a given name is present or not 
@@ -25,4 +30,3 @@ else:
 
 
 
-  
