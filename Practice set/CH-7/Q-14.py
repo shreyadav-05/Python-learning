@@ -1,5 +1,7 @@
 # write a program to find weather a given number is prime orr not.
 
+
+
 n = int(input("enter a number:"))
 for i in range(2, n):
     if(n%i) ==0:
@@ -7,3 +9,7 @@ for i in range(2, n):
         break
 else:
     print("number is prime")
+
+
+
+
