@@ -6,7 +6,8 @@ for n=3
 ***
 
 """
-"""Q-9"""
+
+
 n= int(input("enter:"))
 
 for i in range(1, n+1):
@@ -16,6 +17,7 @@ for i in range(1, n+1):
   print("*" )                   # but not in the correct way
   print("*" * n)
   break
+
 
 
 """ Correct way to do"""
@@ -29,3 +31,5 @@ for i in range(1, n+1):
     print(" " *(n-2), end="")
     print("*", end="")
   print("")
+
+
