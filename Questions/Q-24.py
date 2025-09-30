@@ -6,4 +6,4 @@ if num % 2 == 0:
 else:
     print("Odd number")
 
-apka rock paer kha hai
+
