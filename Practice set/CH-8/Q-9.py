@@ -12,3 +12,9 @@ def reverse_string(s):
 # Example usage:
 text = "Shreya"
 print(reverse_string(text))  # Output: "olleh"
+
+
+
+
+
+
