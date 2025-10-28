@@ -6,8 +6,6 @@ def countdown(n):
     print(n)
     countdown(n - 1)  # Recursive call
 
-
-
 # Example usage:
 countdown(5)
 
