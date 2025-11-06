@@ -124,10 +124,13 @@ for i in range(1, rows+1):
 """
 
 # print half pyramid
+
+
 rows = 5
 for i in range( rows):
     for j in range (i+1):
         print("*",end = " ")
     print()
 
-    
+
+
