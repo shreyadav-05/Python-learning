@@ -127,5 +127,5 @@ for i in range(1, rows+1):
 rows = 5
 for i in range( rows):
     for j in range (i+1):
-        print("*",end = "")
+        print("*",end = " ")
     print()
