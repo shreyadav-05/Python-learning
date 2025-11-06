@@ -1,4 +1,6 @@
 # vowel counter check
+"""
+
 string = input("enter the string:")
 vowels = ["a","e","i","o","u"]
 
@@ -7,18 +9,20 @@ for ch in string:
     if ch in vowels :
         count +=1
 print ("Total vowels :",count)
-
+"""
 
 
 # #find the maximum element in a list 
+"""
 numbers = [55,23,90,58,68]
 max_num = numbers [0]
 for num in numbers:
     if num > max_num:
         max_num = num
         print("maximum element:",max_num)
-
+"""
 #Check prime number
+"""
 num = int(input("enter the num"))
 if num > 1:
     for i in range(2,num):
@@ -27,20 +31,20 @@ if num > 1:
             break
         else:
             print(num," is a prime number")
-
+"""
 
 # Right-angled triangle pattern
-""""
+"""
 *
 **
 ***
 ****
 *****
-"""
+
 rows = 5
 for i in range (1,rows+1):
     print("*" * i)
-      
+"""    
 
 
 
@@ -52,11 +56,11 @@ for i in range (1,rows+1):
 # Take a string as input and print it in reverse using a for loop.
 # ulta string prine karwana hai example = Shreya 
 #             output = ayerhs
-
+"""
 text = input("enter the string:")
 reversed_text = text[:: -1]
 print("reversed string:",reversed_text)
-
+"""
 
 
 
@@ -68,7 +72,7 @@ print("reversed string:",reversed_text)
 # Print the first n terms of the Fibonacci sequence using a for loop.
 # 👉 (e.g., 0, 1, 1, 2, 3, 5, 8...)
 
-
+"""
 
 n = int(input("enter the number:"))
 a , b = 0 , 1
@@ -77,7 +81,7 @@ for i in range(n):
     print(a,end = "")
     a, b = b ,a+b
 
-
+"""
 
 
 
@@ -110,14 +114,18 @@ for i in range(n):
 1 2 3 4
 1 2 3 4 5
 
-"""
+
 
 rows = 5
 for i in range(1, rows+1):
     for j in range(1,i+1):
         print(j , end="")
     print()
+"""
 
-
-
-    
+# print half pyramid
+rows = 5
+for i in range( rows):
+    for j in range (i+1):
+        print("*",end = "")
+    print()
