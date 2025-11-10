@@ -8,7 +8,7 @@ c= '''Harry '''   # Triple qouted string
 # *you cannot change the existing string 
 
 #we can slice a string , In order to do so,  we use following syantax 
-          #what is does 
+        #what is does 
 Slice= a[0:3]
 """ in this case it starts from 0 index to the
 1 , excluding the 2 """
