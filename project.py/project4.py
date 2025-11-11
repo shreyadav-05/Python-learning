@@ -1,7 +1,11 @@
+# to do list
+
+
+
 tasks = []
 
 while True:
-    print("\n📝 To-Do List Menu")
+    print("\n  To-Do List Menu")
     print("1. Add task")
     print("2. View tasks")
     print("3. Remove task")
@@ -25,3 +29,15 @@ while True:
         print("👋 Exiting To-Do List. Bye!")
         break
 
+
+
+
+#Step	 Action	               Concept
+#1	     Empty list	           Data store
+#2	     While loop	           Program repeat
+#3	     Menu print	           User options
+#4	     Input choice	       Decide what to do
+#5	     Add task	           append()
+#6	     View task	           for loop + enumerate()
+#7	     Remove task	       del
+#8	     Exit	               break
