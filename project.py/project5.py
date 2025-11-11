@@ -16,4 +16,4 @@ while play == "yes":                      # jab tak user chahe
         continue                            # loop ko dobara se start karega
     play = input("Do you want to play again? (yes/no): ").lower()
 
-print("thank u for playing")
+print("Thank You for Playing")
