@@ -1,7 +1,5 @@
 # to do list
 
-
-
 tasks = []
 
 while True:
@@ -16,18 +14,47 @@ while True:
     if choice == "1":
         task = input("Enter your task: ")
         tasks.append(task)
+        f = open("tasks.txt", "a")
+        f.write(task + "\n")
+        f.close()
         print("✅ Task added!")
+
     elif choice == "2":
         print("\nYour Tasks:")
-        for i, t in enumerate(tasks, 1):
-            print(f"{i}. {t}")
+        f = open("tasks.txt", "r")
+        lines = f.readlines()
+        f.close()
+        for i, t in enumerate(lines, 1):
+            print(f"{i}. {t.strip()}")  # file ke tasks print honge
+
     elif choice == "3":
+        f = open("tasks.txt", "r")
+        lines = f.readlines()
+        f.close()
+
+        print("\nYour Tasks:")
+        for i, t in enumerate(lines, 1):
+            print(f"{i}. {t.strip()}")
+
         num = int(input("Enter task number to remove: "))
-        del tasks[num - 1]
-        print("❌ Task removed!")
+
+        # चुना हुआ task हटाओ
+        del lines[num - 1]
+
+        # file को दोबारा overwrite करो (purana data hata kar)
+        f = open("tasks.txt", "w")
+        for t in lines:
+            f.write(t)
+        f.close()
+
+        print("❌ Task removed successfully!")
+
     elif choice == "4":
         print("👋 Exiting To-Do List. Bye!")
         break
+
+    
+
 
 
 
