@@ -21,3 +21,7 @@ a  = TwoDVector(2, 5)
 a.show()
 b = ThreeDVector(2, 3, 4)
 b.show
+
+
+
+
