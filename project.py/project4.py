@@ -38,10 +38,9 @@ while True:
 
         num = int(input("Enter task number to remove: "))
 
-        # चुना हुआ task हटाओ
+        
         del lines[num - 1]
 
-        # file को दोबारा overwrite करो (purana data hata kar)
         f = open("tasks.txt", "w")
         for t in lines:
             f.write(t)
