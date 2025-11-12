@@ -9,6 +9,8 @@ import random
 0  scissor
 '''
 
+
+"""
 computer = random.choice([-1,1,0])
 youDict = {"R":-1 , "P":1 , "S":0}
 reverseDict = {-1:"Rock 🪨" , 1:"Paper 📰" , 0:"Scissor ✂️"}
@@ -49,10 +51,10 @@ while True:
         print("\n👋 Thanks for playing!")
         print(f"Final Scores → You: {user_score} | Computer: {computer_score}")
         break
-   
+   """
    
 
-"""
+
 import random
 
 # Mapping dictionaries
@@ -62,6 +64,13 @@ reverseDict = {-1: "Rock 🪨", 1: "Paper 📰", 0: "Scissor ✂️"}
 # Scoreboard initialization
 user_score = 0
 computer_score = 0
+# Load previous high score from file (if exists)
+try:
+    with open("highscore.txt", "r") as f:
+        high_score = int(f.read())
+except:
+    high_score = 0
+
 
 print("🎮 Welcome to Rock-Paper-Scissors Game 🎮")
 print("Use: R for Rock, P for Paper, S for Scissors")
@@ -85,6 +94,12 @@ while True:
     elif (you == -1 and computer == 0) or (you == 1 and computer == -1) or (you == 0 and computer == 1):
         print("🎉 You Win!")
         user_score += 1
+            # Update high score if user beats it
+    if user_score > high_score:
+        high_score = user_score
+        with open("highscore.txt", "w") as f:
+            f.write(str(high_score))
+
     else:
         print("☠️ You Lose!")
         computer_score += 1
@@ -92,6 +107,8 @@ while True:
     # Display current scores
     print(f"\n🏆 Scoreboard:")
     print(f"You: {user_score} | Computer: {computer_score}")
+    print(f"🔥 High Score: {high_score}")
+
 
     # Play again option
     play_again = input("\nDo you want to play again? (y/n): ").lower()
@@ -99,7 +116,7 @@ while True:
         print("\n👋 Thanks for playing!")
         print(f"Final Scores → You: {user_score} | Computer: {computer_score}")
         break
-"""
+
 
 
 
@@ -117,7 +134,6 @@ while True:
 
 """Features to be added soonn!!
 
-    1. add play again option
    2. Add a score board 
    3. Shortne the if_else statements
 
