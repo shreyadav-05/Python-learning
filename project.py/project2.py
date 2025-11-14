@@ -16,7 +16,7 @@ elif op == "*":
     print("✖result:" , a*b)
 
 elif op == "%":
-    print("💯result:" , a*b) / 100
+    print("💯 result:", (a * b) / 100)
 
 elif op == "^":
     print("⚡result:" , a**b)   
@@ -29,6 +29,8 @@ elif op == "/":
     print("cannot divide by zero")
 else:
     print("❌invalid operation , please enter (+, -, *, /, %, ^)")
+
+
 
 
 
