@@ -41,9 +41,9 @@ while(i<len(l)):
 OUTPUT:
 1
 harry
-subha
+subham
 divya
-adity
+aditya
 anmol
 annirudh
 False
