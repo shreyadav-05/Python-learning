@@ -124,26 +124,29 @@ for i in range(1, rows+1):
 """
 
 # print half pyramid
-
+"""
 
 rows = 5
 for i in range( rows):
     for j in range (i+1):
         print("*",end = " ")
     print()
+"""
+    
+
 
 #reverse 
-
+"""
 rows = 5
 for i in range(rows, 0 ,-1):
     for j in range (i):
         print("*",end = " ")
     print()
-
+"""
 
 
 #fibonaci sedries
-
+"""
 n = int(input("enter the number:"))
 a , b = 0 , 1
 print("fibonacci series:")
@@ -151,3 +154,4 @@ for i in range(n):
     print(a,end = "")
     a, b = b ,a+b
 
+"""

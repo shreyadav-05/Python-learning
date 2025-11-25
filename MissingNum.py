@@ -5,7 +5,7 @@ def missing_number(nums):
     return expected_sum - sum(nums)
 
 # Example
-print(missing_number([1, 2, 4, 5, 6, 7,9]))
+print(missing_number([1, 2, 4, 5, 6, 7,8]))
 
 
 
