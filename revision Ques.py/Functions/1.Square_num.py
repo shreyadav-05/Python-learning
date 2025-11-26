@@ -12,3 +12,4 @@ ans = square(number)
 
 # printing the result
 print("Square of", number, "is:", ans)
+
