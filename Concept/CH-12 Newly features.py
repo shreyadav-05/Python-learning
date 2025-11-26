@@ -137,5 +137,6 @@ if(b == 0):
 else:
     print(f"The division a/b is {a/b}")
 
+
 #TRY WITH ELSE CLAUSE
 #Sometimes we want to run a block of code only when no exception was raised.
