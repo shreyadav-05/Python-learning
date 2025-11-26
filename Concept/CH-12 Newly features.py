@@ -88,12 +88,12 @@ print(dict1)     # Output: {'a': 1, 'b': 3, 'c': 4}
 
 #you can also now use multiple context managers in a single with statement more cleanly
 #using the parenthesized context manager:
-with (
-    open("file1.txt") as f1,
-    open("file2.txt") as f2
-):
-    # process files
-    pass
+#with (
+#    open("file1.txt") as f1,
+#    open("file2.txt") as f2
+#):
+#    #process files
+#    pass
 
 #EXCEPTION HANDLING IN PYTHON
 #(Left side wali faint line: “Exception handling is used in Python when something goes wrong.”)
@@ -101,7 +101,7 @@ with (
 #exception written in the except clause.”)
 
 try:
-    a = int(input("Hey , Enter a number"))
+    a = int(input("Hey, Enter a number: "))
     print(a)
 
 except ValueError as v:
@@ -110,8 +110,9 @@ except ValueError as v:
 
 except Exception as e:
     print(e)
-    
+
 print("Thank you")
+
 
 """
 try:
@@ -123,3 +124,18 @@ except TypeError:
 except:
     # All other exceptions are handled here.
 """
+
+
+#RAISING EXCEPTIONS
+#We can raise custom exceptions using the raise keyword in Python.
+a = int(input("Enter a number :"))
+b = int(input("Enter second number:"))
+
+if(b == 0):
+    raise ZeroDivisionError("Hey our program is not meant to divice number by zero")
+
+else:
+    print(f"The division a/b is {a/b}")
+
+#TRY WITH ELSE CLAUSE
+#Sometimes we want to run a block of code only when no exception was raised.
