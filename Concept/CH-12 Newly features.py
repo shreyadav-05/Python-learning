@@ -128,6 +128,7 @@ except:
 
 #RAISING EXCEPTIONS
 #We can raise custom exceptions using the raise keyword in Python.
+
 a = int(input("Enter a number :"))
 b = int(input("Enter second number:"))
 
