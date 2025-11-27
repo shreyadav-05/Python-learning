@@ -212,8 +212,8 @@ def fun():
 fun()
 print(a)
 
-#THE GLOBAL KEYWORD
-#The global keyword is used to modify the variable outside of the current scope.
+#ENUMERATE FUNCTION IN PYTHON
+#The enumerate function adds a counter to an iterable and returns it.
 l = [3, 513, 53, 535]
 
 #index = 0
@@ -223,3 +223,16 @@ l = [3, 513, 53, 535]
 
 for index, item in enumerate(l):
     print(f"The item number at index {index} is {item}")
+
+#LIST COMPREHENSIONS
+#List Comprehension is an elegant way to create lists based o n existing lists
+
+myList = [1, 2, 9, 5, 3, 5]
+
+# SquaredList = []
+# for item in myList:
+#     SquaredList.append(item*item)
+
+SquaredList = [i*i for i in myList]
+
+print(SquaredList)
