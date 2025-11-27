@@ -193,7 +193,22 @@ main()
 """
 def myFunc():
     print("Hello world!")
+if __name__ == "__main__": 
+    #if this code is directly executed by running the file its present in
+    print("We are directly running this code")
+
 
 myFunc()
 print(__name__)
+
+#THE GLOBAL KEYWORD
+#The global keyword is used to modify the variable outside of the current scope.
+a = 89
+def fun():
+    #global
+    a = 3
+    print(a)
+
+fun()
+print(a)
 
