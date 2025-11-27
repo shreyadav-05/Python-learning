@@ -6,6 +6,9 @@
 # part of an expression. This operator is named for its resemblance to the eyes and tusks of a walrus,
 #  officially called the assignment expression.
 
+
+
+"""
 # using walrus operator
 if (n := len([1, 2, 3, 4, 5])) > 4:
     print(f"List is too long ({n} elements, expected <= 4)")
@@ -112,7 +115,7 @@ except Exception as e:
     print(e)
 
 print("Thank you")
-
+"""
 
 """
 try:
@@ -125,7 +128,7 @@ except:
     # All other exceptions are handled here.
 """
 
-
+"""
 #RAISING EXCEPTIONS
 #We can raise custom exceptions using the raise keyword in Python.
 
@@ -178,3 +181,19 @@ def main():
     
     finally:
         print("I am inside of finally")
+
+main()
+
+#if __name__ == "__main__": in Python##
+
+#__name__ evaluates to the name of the module in Python from where the program is run.
+#If the module is being run directly from the command line, the __name__ is set to the 
+# string "__main__". Thus, this behaviour is used to check whether the module is run directly 
+# or imported to another file.
+"""
+def myFunc():
+    print("Hello world!")
+
+myFunc()
+print(__name__)
+
