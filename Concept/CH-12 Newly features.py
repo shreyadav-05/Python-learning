@@ -141,3 +141,12 @@ else:
 
 #TRY WITH ELSE CLAUSE
 #Sometimes we want to run a block of code only when no exception was raised.
+try:
+    a = int(input("Hey, Enter a number: "))
+    print(a)
+
+except Exception as e:
+    print(e)
+
+else:
+    print("I am inside else")
