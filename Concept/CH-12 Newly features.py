@@ -200,7 +200,7 @@ if __name__ == "__main__":
 
 myFunc()
 print(__name__)
-
+"""
 #THE GLOBAL KEYWORD
 #The global keyword is used to modify the variable outside of the current scope.
 a = 89
@@ -236,3 +236,5 @@ myList = [1, 2, 9, 5, 3, 5]
 SquaredList = [i*i for i in myList]
 
 print(SquaredList)
+
+"""
