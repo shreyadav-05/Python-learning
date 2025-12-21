@@ -3,7 +3,7 @@
 a = int(input("enter number 1,"))
 b = int(input("enter number 2,"))
 
-print("enter than b is ",a>b)
+print("greater than b is ",a>b)
 
 
 
