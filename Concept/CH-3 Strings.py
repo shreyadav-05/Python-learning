@@ -19,7 +19,7 @@ print(Slice)
 """---> basically we can skip value in the strng and then display it, let me show in the below example 
 """
 f= "shreyayadav" 
-sliceSkip=f[1:9 : 4]    
+sliceSkip=f[1:9 : 3]    
 """
 -> This slices the string from index 1 to 8 (9 is exclusive), skipping every 3rd character.
 -> Characters at index positions 1, 4, and 7 are picked: 'b', 'y', and 'd' → so the result is 'byd'

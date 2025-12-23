@@ -1,2 +1,0 @@
-Hello, this is my first file in Python!
-Adding another line to the file.
