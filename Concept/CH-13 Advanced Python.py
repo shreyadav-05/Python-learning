@@ -80,3 +80,14 @@ nums = [1, 2, 3, 4]
 result = reduce(lambda a, b: a + b, nums)
 print(result)
 
+
+
+#join() method
+#The join() method is used to combine elements of an iterable into a single string using a specified separator.
+#Syntax
+#separator.join(iterable) separator → jo beech me aayega  and  iterable → list / tuple / set (strings ka)
+#EX-
+words = ["Hello", "World"]
+result = " ".join(words)
+print(result)
+
