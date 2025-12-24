@@ -91,3 +91,9 @@ words = ["Hello", "World"]
 result = " ".join(words)
 print(result)
 
+
+#Different Separators ke examples
+#Comma se join
+names = ["Ram", "Shyam", "Mohan"]
+print(",".join(names))
+
