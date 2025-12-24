@@ -48,9 +48,12 @@ lambda arguments : expression
 
 
 
-#EX
+#EX-
 #Square of a number
 square = lambda x: x * x
 print(square(5))
 
+#Add two numbers
+add = lambda a, b: a + b
+print(add(10, 20))
 
