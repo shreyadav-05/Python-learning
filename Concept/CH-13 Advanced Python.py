@@ -60,3 +60,11 @@ print(add(10, 20))
 #Even or Odd check
 check = lambda n: "Even" if n % 2 == 0 else "Odd"
 print(check(7))
+
+
+#Lambda with built-in functions
+#map()#Har element pe function apply karta hai
+nums = [1, 2, 3, 4]
+result = list(map(lambda x: x * 2, nums))
+print(result)
+
