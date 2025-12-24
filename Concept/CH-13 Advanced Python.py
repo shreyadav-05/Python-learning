@@ -103,3 +103,8 @@ print("-".join(names))
 
 #Empty string (no space)
 print("".join(names))
+
+
+#Join characters of a string
+s = "Python"
+print("-".join(s))
