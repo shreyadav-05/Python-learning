@@ -97,3 +97,7 @@ print(result)
 names = ["Ram", "Shyam", "Mohan"]
 print(",".join(names))
 
+
+#Hyphen se join
+print("-".join(names))
+
