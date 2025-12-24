@@ -108,3 +108,24 @@ print("".join(names))
 #Join characters of a string
 s = "Python"
 print("-".join(s))
+
+
+#Numbers ko directly join nahi kar sakte
+"""
+nums = [1, 2, 3]
+",".join(nums)   # ❌ Error
+#Pehle string me convert karo
+nums = [1, 2, 3]
+print(",".join(map(str, nums)))
+"""
+
+#FORMAT METHOD
+#The format() method is used to format strings by inserting values into placeholders {}.
+#Syntax--"string {}".format(value)
+
+#EX-
+name = "Shreya"
+age = 20
+
+print("My name is {} and my age is {}".format(name, age))
+
