@@ -101,3 +101,5 @@ print(",".join(names))
 #Hyphen se join
 print("-".join(names))
 
+#Empty string (no space)
+print("".join(names))
