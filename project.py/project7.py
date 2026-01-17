@@ -1,6 +1,6 @@
 #students management system
 
-
+"""
 
 students = []
 
@@ -58,5 +58,58 @@ while True:
     else:
         print("Invalid choice!")
 
+"""
 
 
+#OOP VERSION
+
+
+
+
+class Student:
+    def __init__(self, roll, name, marks):
+        self.roll = roll
+        self.name = name
+        self.marks = marks
+
+
+class StudentManager:
+    def __init__(self):
+        self.students = []
+
+    def add_student(self):
+        roll = int(input("Roll: "))
+        name = input("Name: ")
+        marks = int(input("Marks: "))
+        s = Student(roll, name, marks)
+        self.students.append(s)
+
+    def view_students(self):
+        for s in self.students:
+            print(s.roll, s.name, s.marks)
+
+    def search_student(self):
+        r = int(input("Enter roll: "))
+        for s in self.students:
+            if s.roll == r:
+                print("Found:", s.name)
+                return
+        print("Not found")
+
+
+manager = StudentManager()
+
+while True:
+    print("1 Add  2 View  3 Search  4 Exit")
+    ch = int(input("Enter your choice:"))
+
+    if ch == 1:
+        manager.add_student()
+    elif ch == 2:
+        manager.view_students()
+    elif ch == 3:
+        manager.search_student()
+    elif ch == 4:
+        break
+    else:
+        print("Invalid choice!")
