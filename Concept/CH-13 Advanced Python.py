@@ -40,7 +40,7 @@ def add(a, b):
 #lamda
 add = lambda a, b: a + b
 #Syntax
-lambda arguments : expression
+#lambda arguments : expression
 #lambda → keyword
 #arguments → input
 #expression → calculation / logic
@@ -75,6 +75,18 @@ print(result)
 
 #reduce() (from functools)Sab values ko combine karta hai
 from functools import reduce
+"""
+ 1  2  3  4
+  \ /
+   3  3  4
+   \ /
+    6  4
+     \ /
+      10
+
+"""   
+
+
 
 nums = [1, 2, 3, 4]
 result = reduce(lambda a, b: a + b, nums)
@@ -129,3 +141,16 @@ age = 20
 
 print("My name is {} and my age is {}".format(name, age))
 
+#Position-based formatting
+print("I have {} apples and {} mangoes".format(3, 5))
+
+#Index use karke
+print("I have {1} apples and {0} mangoes".format("mangoes", "apples"))
+
+#Named (keyword) formatting 
+print("Name: {name}, Age: {age}".format(name="Shreya", age=20))
+
+
+#Number formatting-Decimal places
+pi = 3.14159
+print("Value of pi is {:.2f}".format(pi))
