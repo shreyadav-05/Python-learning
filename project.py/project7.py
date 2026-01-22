@@ -64,7 +64,7 @@ while True:
 #OOP VERSION
 
 
-
+"""
 
 class Student:
     def __init__(self, roll, name, marks):
@@ -113,3 +113,84 @@ while True:
         break
     else:
         print("Invalid choice!")
+
+
+"""
+
+
+
+
+
+#Train Booking System (Python – OOP)
+
+
+
+# Train class (sirf data)
+class Train:
+    def __init__(self, train_no, name, seats):
+        self.train_no = train_no
+        self.name = name
+        self.seats = seats
+
+
+# Booking system class (logic)
+class BookingSystem:
+    def __init__(self):
+        self.trains = []
+
+    def add_train(self):
+        train_no = int(input("Enter Train Number: "))
+        name = input("Enter Train Name: ")
+        seats = int(input("Enter Total Seats: "))
+
+        train = Train(train_no, name, seats)
+        self.trains.append(train)
+
+        print("✅ Train added successfully!")
+
+    def view_trains(self):
+        if not self.trains:
+            print("❌ No trains available.")
+        else:
+            print("\nAvailable Trains:")
+            for t in self.trains:
+                print(f"Train No: {t.train_no}, Name: {t.name}, Seats: {t.seats}")
+
+    def book_ticket(self):
+        train_no = int(input("Enter Train Number to book ticket: "))
+
+        for t in self.trains:
+            if t.train_no == train_no:
+                if t.seats > 0:
+                    t.seats -= 1
+                    print("🎟️ Ticket booked successfully!")
+                else:
+                    print("❌ No seats available.")
+                return
+
+        print("❌ Train not found.")
+
+
+# Main program
+system = BookingSystem()
+
+while True:
+    print("\n--- Train Booking System ---")
+    print("1. Add Train")
+    print("2. View Trains")
+    print("3. Book Ticket")
+    print("4. Exit")
+
+    choice = int(input("Enter your choice: "))
+
+    if choice == 1:
+        system.add_train()
+    elif choice == 2:
+        system.view_trains()
+    elif choice == 3:
+        system.book_ticket()
+    elif choice == 4:
+        print("🙏 Thank you for using Train Booking System")
+        break
+    else:
+        print("❌ Invalid choice! Try again.")
