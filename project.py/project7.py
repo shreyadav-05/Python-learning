@@ -123,7 +123,7 @@ while True:
 
 #Train Booking System (Python – OOP)
 
-
+"""
 
 # Train class (sirf data)
 class Train:
@@ -191,6 +191,103 @@ while True:
         system.book_ticket()
     elif choice == 4:
         print("🙏 Thank you for using Train Booking System")
+        break
+    else:
+        print("❌ Invalid choice! Try again.")
+
+"""
+
+
+
+#Hotel Reservation System (Python – OOP)
+
+
+# Room class (sirf data)
+class Room:
+    def __init__(self, room_no, room_type, price, is_available=True):
+        self.room_no = room_no
+        self.room_type = room_type
+        self.price = price
+        self.is_available = is_available
+
+
+# Hotel class (logic handle karta hai)
+class Hotel:
+    def __init__(self):
+        self.rooms = []
+
+    def add_room(self):
+        room_no = int(input("Enter Room Number: "))
+        room_type = input("Enter Room Type (Single/Double): ")
+        price = int(input("Enter Price per day: "))
+
+        room = Room(room_no, room_type, price)
+        self.rooms.append(room)
+
+        print("✅ Room added successfully!")
+
+    def view_rooms(self):
+        if not self.rooms:
+            print("❌ No rooms available.")
+            return
+
+        print("\nAvailable Rooms:")
+        for r in self.rooms:
+            status = "Available" if r.is_available else "Booked"
+            print(f"Room No: {r.room_no}, Type: {r.room_type}, Price: {r.price}, Status: {status}")
+
+    def book_room(self):
+        room_no = int(input("Enter Room Number to book: "))
+
+        for r in self.rooms:
+            if r.room_no == room_no:
+                if r.is_available:
+                    r.is_available = False
+                    print("🏨 Room booked successfully!")
+                else:
+                    print("❌ Room already booked.")
+                return
+
+        print("❌ Room not found.")
+
+    def checkout_room(self):
+        room_no = int(input("Enter Room Number for checkout: "))
+
+        for r in self.rooms:
+            if r.room_no == room_no:
+                if not r.is_available:
+                    r.is_available = True
+                    print("✅ Checkout successful!")
+                else:
+                    print("❌ Room is already available.")
+                return
+
+        print("❌ Room not found.")
+
+
+# Main Program
+hotel = Hotel()
+
+while True:
+    print("\n--- Hotel Reservation System ---")
+    print("1. Add Room")
+    print("2. View Rooms")
+    print("3. Book Room")
+    print("4. Checkout Room")
+    print("5. Exit")
+
+    choice = int(input("Enter your choice: "))
+
+    if choice == 1:
+        hotel.add_room()
+    elif choice == 2:
+        hotel.view_rooms()
+    elif choice == 3:
+        hotel.book_room()
+    elif choice == 4:
+        hotel.checkout_room()
+    elif choice == 5:
+        print("🙏 Thank you for using Hotel Reservation System")
         break
     else:
         print("❌ Invalid choice! Try again.")
